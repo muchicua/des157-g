@@ -1,10 +1,10 @@
 console.log('reading js');
 var l, a, i;
-var colors = ["#C460E0",
-         "#0256A7",
-         "#69F5E7",
-         "#687DF2",
-         "#69F591",
+var colors = ["#DBE12F",
+         "#96D5CE",
+         "#FBB040",
+         "#CBEAED",
+         "#EBE95C",
          "#F1Ea67"];
 // var colors = ['249, 190, 131', '247, 155, 119', '244, 124, 108', '232, 97, 104', '212, 73, 98', '193, 58, 99)'];
 
@@ -14,7 +14,7 @@ function setup() {
   a = 250;
 
   // background(#ffffff);
-    strokeWeight(2);
+
 
   //size is createCanvas in P5
   // create a variable to reference the canvas
@@ -25,8 +25,9 @@ function setup() {
 
 function draw() {
   //transparent rectangle for fading
-  fill(255,255,255,3); // this is correct
-  rect(-2,-2,802,255);
+  fill(2,85,167,2); // this is correct
+  rect(-2,-2,80,255);
+  strokeWeight(3);
 
 
 
