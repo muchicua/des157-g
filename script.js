@@ -14,7 +14,7 @@ function setup() {
   a = 250;
 
   // background(#ffffff);
-
+  strokeWeight(4);
 
   //size is createCanvas in P5
   // create a variable to reference the canvas
@@ -27,7 +27,7 @@ function draw() {
   //transparent rectangle for fading
   fill(2,85,167,2); // this is correct
   rect(-2,-2,80,255);
-  strokeWeight(4);
+ 
 
 
 
