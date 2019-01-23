@@ -1,3 +1,5 @@
+/******** portal **********/
+
 #MySketch {
   height: 250px;
   margin-top: 30px;
@@ -11,12 +13,12 @@ body {
   width: 800px;
   margin: auto;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: white;
 }
 
 h1 {
-  font-family: 'Coiny', cursive;
+  font-family: 'Coiny', cursive; /* font for titles*/
   color: #F9ED32; /* yellow */
   font-size: 55px;
   text-shadow: 6px 6px #0256A7;
@@ -34,7 +36,7 @@ section {
 
 h2{
   color: #F2B666; /* orange */
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif; /* font for subtitle*/
   text-align: center;
 }
 div {
@@ -47,6 +49,13 @@ div {
   /* background-color: white; */
   /* opacity: 0.9; */
   border-radius: 20px 20px 20px 20px;
+}
+
+ul li {
+  font-family: 'Raleway', sans-serif; /* font for the body text*/
+}
+ol {
+    color: #F2B666; /* orange */
 }
 
 a:link {
@@ -80,6 +89,7 @@ footer ul li {
 }
 
 footer a {
-  color: #DBE12F;
-  
+  color: #DBE12F; /*yellow*/
+
 }
+/******** client survey **********/
