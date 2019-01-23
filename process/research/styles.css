@@ -2,7 +2,7 @@
 body{
   background-color: #33BCAB; /* green color for background*/
   width: 800px;
-  height: 250px;
+  height: 300px;
   margin: auto;
   font-family: sans-serif;
   font-size: 14px;
@@ -24,7 +24,7 @@ font-size: 40px;
 }
 main{
   margin-top: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 section{
