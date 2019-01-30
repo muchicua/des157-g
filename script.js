@@ -27,7 +27,7 @@ function draw() {
   //transparent rectangle for fading
   fill(2,85,167,2); // this is correct
   rect(-1,-1,802,255);
- 
+
 
 
 
