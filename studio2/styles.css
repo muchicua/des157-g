@@ -1,11 +1,14 @@
-/*****Responsice for Larger Screens *****/
+/*****Responsive for Larger Screens *****/
+
 @media only screen and (min-width: 769px) {
-  .pagecontainer {
+  main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .1fr .1fr .1fr;
     margin: auto;
-    width: 800px;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
   }
 
   body {
@@ -18,57 +21,80 @@
     grid-column: 1 / 4;
     font-size: 20px;
     color: white;
+    background-color: #33BCAB;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
-    background-color: blue;
+
+
   }
 
-  article {
+  #sec1{
     grid-row: 2;
     grid-column: 1/ 2;
   }
 
-  section {
+  #sec2 {
     grid-row: 2;
     grid-column: 2/ 3;
   }
 
-  main {
+  #sec3 {
     grid-row: 2;
     grid-column: 3/ 4;
     margin-right: 20px;
   }
 
-  article, section, main {
+  section{
     margin-top: 150px;
     margin-left: 20px;
     padding-top: 15px;
     border-radius: 20px 20px 20px 20px;
     border: solid;
-    border-color: #DBE12F;
-    /*yellow*/
-    background-color: #F2B666;
+    border-color: #DBE12F;  /*yellow*/
+    /* background-color: #F2B666; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
   }
 
-  .img1 {
+  #img1, #img2, #img3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .img2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .img3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  /* #text1,#text2, #text3{
+  } */
 
+  /* #close1, #close2, #close3{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index:99;
+  } */
+
+  #box{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: #DBE12F;/*yellow*/
+    color: #DBE12F;/*yellow*/
+    opacity: 0.80;
+  }
+  #des{
+    color: black;
+    background-color: none;
+  }
+  #close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: black;
+  }
+p{
+
+}
   ol {
     color: #F2B666;
     /* orange */
@@ -91,8 +117,7 @@
     grid-row: 3;
     grid-column: 1/ 4;
     font-family: 'Raleway', sans-serif;
-    background-color: #0256A7;
-    /* blue */
+    background-color: #0256A7;/* blue */
     position: fixed;
     left: 0;
     bottom: 0;
@@ -100,27 +125,27 @@
     padding: 17px 0px 17px 0px;
     width: 100%;
     text-align: center;
-  }
-
-  footer ul li {
     display: inline-block;
     list-style-type: none;
   }
 
   footer a {
-    color: #DBE12F;
-    /*yellow*/
+    color: #DBE12F;/*yellow*/
   }
 }
 
-/*** table **/
+/**************** Larger Screens ******************/
+
 
 body {
   background-color: #33BCAB; /**** aqua ****/
+
 }
-article, section, main {
+
+section {
   flex-wrap: wrap;
   justify-content: center;
+
 
 }
 header {
@@ -129,16 +154,17 @@ header {
   padding-bottom: 5px;
   font-size: 20px;
   color: white;
+  background-color: #33BCAB;
   font-family: 'Varela Round', sans-serif;
   text-align: center;
-  border: solid;
+  /* border: solid;
   border-color: #F9ED32; /* yellow */
-  border-radius: 20px 20px 20px 20px;
+  /* border-radius: 20px 20px 20px 20px; */
 
 }
 
 
-article, section, main {
+ section{
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
@@ -146,26 +172,54 @@ article, section, main {
   border-radius: 20px 20px 20px 20px;
   border: solid;
   border-color: #DBE12F;/*yellow*/
-  background-color: #F2B666;
+  /* background-color: #F2B666; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
 }
-.img1 {
+
+#img1, #img2, #img3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
 }
-.img2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
+/* #text1,#text2, #text3{
+
+} */
+
+/* #close1, #close2, #close3{
+display: none;
+position: absolute;
+transform: translate(-50%, -50%);
+top: 1em;
+right: 1.5em;
+
+} */
+img:hover{
+  opacity:1;
+  transition: opacity 2s;
 }
 
+  #box{
+    display: none;
+    position:absolute;
+    background-color: #DBE12F;/*yellow*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+  }
+  #des{
+    color: black;
+    background-color: none;
+    opacity: 0.80;
+  }
+  #close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: black;
+  }
 footer {
   font-family: 'Raleway', sans-serif;
   background-color: #0256A7;/* blue */
