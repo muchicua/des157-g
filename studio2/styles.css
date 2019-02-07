@@ -1,15 +1,27 @@
+<<<<<<< HEAD
 
 
 body {
   background-color: #33BCAB; /**** aqua ****/
 
+=======
+/* add box sizing as a global declaration
+
+add mobile declarations first */
+
+body {
+  background-color: #33BCAB;
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
 }
 
 section {
   flex-wrap: wrap;
   justify-content: center;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
 }
 header {
   position: relative;
@@ -20,6 +32,7 @@ header {
   background-color: #33BCAB;
   font-family: 'Varela Round', sans-serif;
   text-align: center;
+<<<<<<< HEAD
   /* border: solid;
   border-color: #F9ED32; /* yellow */
   /* border-radius: 20px 20px 20px 20px; */
@@ -28,6 +41,11 @@ header {
 
 
  section{
+=======
+
+}
+ #sec1,#sec2, #sec3{
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
@@ -43,6 +61,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   margin: auto;
 }
 /* #text1,#text2, #text3{
@@ -60,10 +79,20 @@ right: 1.5em;
 
   #box{
     display: none;
+=======
+
+}
+#box, #box2, #box3{
+  display:none;
+}
+
+  #box, #box2, #box3{
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
     position:absolute;
     background-color: #DBE12F;/*yellow*/
     top: 50%;
     left: 50%;
+<<<<<<< HEAD
     transform: translate(-50%, -50%);
     width: 80%;
     height: 70%;
@@ -78,6 +107,28 @@ right: 1.5em;
     top: 30px;
     right: 30px;
     color: black;
+=======
+    transform: translate(-53%, -60%);
+    border-radius: 20px 20px 20px 20px;
+    width: 50%;
+    height: 50%;
+    opacity: 0.80;
+  }
+
+  #close, #close2, #close3{
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    top: 30px;
+    right: 30px;
+    color: #33BCAB;
+  }
+  p{
+    margin-top: 5em;
+    text-align: justify;
+    padding: 3em;
+
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
   }
 footer {
   font-family: 'Raleway', sans-serif;
@@ -114,10 +165,18 @@ a:hover {
 /*****Responsive for Larger Screens *****/
 
 @media only screen and (min-width: 769px) {
+  *{
+    box-sizing: border-box;
+  }
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .1fr .1fr .1fr;
+<<<<<<< HEAD
+=======
+    margin: auto;
+    width: 100%;
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
     height: 100vh;
   }
 
@@ -156,15 +215,16 @@ a:hover {
     margin-right: 20px;
   }
 
-  section{
-    margin-top: 150px;
-    margin-left: 20px;
-    padding-top: 15px;
-    border-radius: 20px 20px 20px 20px;
-    border: solid;
-    border-color: #DBE12F;  /*yellow*/
-    /* background-color: #F2B666; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+  #sec1,#sec2, #sec3{
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-top: 15px;
+   border-radius: 20px 20px 20px 20px;
+   border: solid;
+   border-color: #DBE12F;/*yellow*/
+   /* background-color: #F2B666; */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
   }
 
   #img1, #img2, #img3 {
@@ -174,6 +234,7 @@ a:hover {
     opacity:.5;
     transition: opacity 2s;
   }
+<<<<<<< HEAD
 #img1:hover{
   opacity:1;
 }
@@ -191,25 +252,34 @@ a:hover {
 
   #box{
     display: none;
+=======
+
+  #box, #box2, #box3{
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
     position:absolute;
-    top: 0;
-    left: 0;
     background-color: #DBE12F;/*yellow*/
-    color: #DBE12F;/*yellow*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, -60%);
+    border-radius: 20px 20px 20px 20px;
+    width: 50%;
+    height: 50%;
     opacity: 0.80;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
   }
-  #des{
-    color: black;
-    background-color: none;
-  }
-  #close{
+
+  #close, #close2, #close3{
     position: absolute;
+    font-size: 2em;
+    font-weight: bold;
     top: 30px;
     right: 30px;
-    color: black;
+    color: #33BCAB;
   }
-p{
-
+  p{
+    margin-top: 5em;
+    text-align: justify;
+    padding: 3em;
 }
   ol {
     color: #F2B666;
@@ -232,6 +302,9 @@ p{
   footer {
     grid-row: 3;
     grid-column: 1/ 4;
+}
+
+    footer{
     font-family: 'Raleway', sans-serif;
     background-color: #0256A7;/* blue */
     position: fixed;
@@ -250,4 +323,8 @@ p{
   }
 }
 
+<<<<<<< HEAD
 /**************** Larger Screens ******************/
+=======
+/**************** End Larger Screens ******************/
+>>>>>>> e634a86d548621222cf9dbf1b417f7d40bcc1519
