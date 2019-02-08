@@ -21,7 +21,6 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
-  color: white;
   background-color: #F2B666;
   font-family: 'Varela Round', sans-serif;
   text-align: center;
@@ -29,6 +28,10 @@ header {
 
 h1{
   text-shadow: 4px 4px #33BCAB; /*aqua */
+  color: white;
+}
+h2{
+  color:#33BCAB; /*aqua */
 }
 #sec1{
   border: solid;
@@ -165,12 +168,16 @@ a:hover {
     grid-row: 1;
     grid-column: 1 / 4;
     font-size: 30px;
-    color: white;
     background-color: #F2B666; /*orange */
     font-family: 'Varela Round', sans-serif;
     text-align: center;
   }
-
+  h1{
+      color: white;
+  }
+h2{
+  color:#33BCAB; /*aqua */
+}
   #sec1 {
     grid-row: 2;
     grid-column: 1/ 2;
