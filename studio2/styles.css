@@ -92,9 +92,8 @@ h2{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
 }
 
-#des,#des2,#des3 {
+#des, #des2, #des3 {
   color: white;
-  background-color: none;
   opacity: 0.80;
 }
 
