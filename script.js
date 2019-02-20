@@ -20,7 +20,7 @@ function setup() {
   // create a variable to reference the canvas
   var myCanvas = createCanvas(800, 250);
   // connect my Canvas to mySketch
-  myCanvas.parent("MySketch");
+  myCanvas.parent("mySketch");
 }
 
 function draw() {
