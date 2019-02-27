@@ -44,6 +44,9 @@ section{
 img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
 }
+#moodBoard, #visual{
+  box-shadow: none;
+}
 li{
   margin-top: 8px;
 
