@@ -1,0 +1,131 @@
+/* one page site with scroll */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+font-family: 'Varela Round', sans-serif;
+  font-size:100%;
+}
+header{
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+  border: sol
+}
+
+section{
+  position:fixed;
+  top: 0px;
+  left:0px;
+  font-size:1.5em;
+  margin-top: 2.5em;
+}
+
+li {
+  list-style-type:none;
+}
+
+a {
+  border: 2px #333 solid;
+  border-radius:5px;
+  width:1in;
+  padding:16px;
+  margin-bottom:4px;
+  color:#333;
+  text-decoration: none;
+  display:inline-block;
+}
+
+a:hover {
+  background-color:white;
+}
+.page {
+  /* setting height 100% for html, body, and for all pages makes each page full viewport */
+  height: 100%;
+  /* dirty hack to make text big and centered */
+  text-align: center;
+  font-size: 100vmin;
+  color:#333;
+}
+
+#page1 {
+  background-color:white;
+}
+
+#page2 {
+  background-color:lightgrey;
+}
+
+#page3 {
+  background-color:grey;
+}
+
+#page4 {
+  background-color:pink;
+}
+
+#page5 {
+  background-color:black;
+}
+/*************** bar ******************/
+.container{
+display: inline-block;
+cursor: pointer;
+}
+#bar1, #bar2, #bar3{
+width: 35px;
+height: 5px;
+background-color: #333;
+margin: 6px 0;
+transition: 0.4s;
+}
+.change #bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change #bar2 {opacity: 0;}
+
+.change #bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/******************************** footer **************************/
+a:link {
+  color: #DBE12F; /* green */
+}
+
+
+a:visited {
+  color: #DBE12F;
+}
+
+a:hover {
+  color: white;
+}
+
+#footer {
+  clear: both;
+  background-color: #0256A7; /* blue */
+
+  left: 0;
+
+  font-size: 15px;
+  padding: 1px 0px 2px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+#footer, #ul1,#ul2,#ul3,#ul4,#ul5,#li1, #li2, #li3,#li4{
+  display: inline-block;
+  list-style-type: none;
+}
+
+#footer, #a1,#a2,#a3,#a4 {
+  color: #DBE12F; /*yellow*/
+
+}
