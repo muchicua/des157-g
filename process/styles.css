@@ -63,6 +63,11 @@ img {
 #siteFlow img{
  box-shadow: none;
 }
+#landing{
+box-shadow: none;
+margin-left: 4em;
+}
+
 li{
   margin-top: 8px;
 
